@@ -9,13 +9,11 @@
 - Pull image microsoft/iis:nanoserver before executing this demo because you will need to download more than 1GB from Docker Hub.
 
 __NOTE:__
+
+[windows-nat-winnat-capabilities-and-limitations](https://blogs.technet.microsoft.com/virtualization/2016/05/25/windows-nat-winnat-capabilities-and-limitations)
 ~~~
 There are some NAT limitations that we will have to managed during this lab.
-
-windows-nat-winnat-capabilities-and-limitations:
-<https://blogs.technet.microsoft.com/virtualization/2016/05/25/windows-nat-winnat-capabilities-and-limitations>
-
-We can not connect to localhost so we will need to review Docker Host IP Address and use your web browser using 
+SWe can not connect to localhost so we will need to review Docker Host IP Address and use your web browser using 
 its IP as url.
 ~~~
 
